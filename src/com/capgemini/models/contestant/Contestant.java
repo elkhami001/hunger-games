@@ -5,25 +5,25 @@ public class Contestant {
     private int luck;
     private int attack;
     private int defense;
+    private Gender contestantGender;
+    private ParticipantType contestantType;
 
-    public Gender getGENDER() {
-        return GENDER;
+
+    public Gender getContestantGender() {
+        return contestantGender;
     }
 
-    public void setGENDER(Gender GENDER) {
-        this.GENDER = GENDER;
+    public void setContestantGender(Gender contestantGender) {
+        this.contestantGender = contestantGender;
     }
 
-    public ParticipantType getTYPE() {
-        return TYPE;
+    public ParticipantType getContestantType() {
+        return contestantType;
     }
 
-    public void setTYPE(ParticipantType TYPE) {
-        this.TYPE = TYPE;
+    public void setContestantType(ParticipantType contestantType) {
+        this.contestantType = contestantType;
     }
-
-    private Gender GENDER;
-    private ParticipantType TYPE;
 
     public int getHealth() {
         return health;
